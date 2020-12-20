@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c0efc9a-bc62-4556-a088-587243c712f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/11/1-1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11/2.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lkMlwmq3f201tUaL1EBerYg5Ug" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c0efc9a-bc62-4556-a088-587243c712f1" name="Default Changelist" comment="" />
+      <created>1608136791130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608136791130</updated>
+      <workItem from="1608136792218" duration="446000" />
+      <workItem from="1608381668681" duration="66000" />
+      <workItem from="1608476264548" duration="111000" />
+      <workItem from="1608476393208" duration="261000" />
+    </task>
+    <task id="LOCAL-00001" summary="урок 10 файлы 1.2.3.php">
+      <created>1608137125604</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608137125604</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="урок 10 файлы 1.2.3.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="урок 10 файлы 1.2.3.php" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="577" y="87" key="CommitChangelistDialog2" timestamp="1608137125019">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="577" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608137125019" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1608381737909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608381737909" />
+    <state x="795" y="442" key="NewPhpFileDialog" timestamp="1608476361287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="795" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608476361287" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1608137128094">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608137128094" />
+  </component>
+</project>
