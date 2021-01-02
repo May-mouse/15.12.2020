@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+OCTYPE html>
 <html>
 <head><title>урок 11</title>
 </head>
@@ -11,31 +11,31 @@
 </body>
 </html>
 <?php
+function pech($a2,$a1){
+    $rez= "$a1 $a2";
+    return $rez;
+}
+$a1=('May Maus');
+$a2= ('имя- ');
+echo pech($a1,$a2)."<br>";
+$a1 = ('Moskov, alleya Vitte,6 building 1, 10');
+$a2 = ('адрес проживания- ');
+echo pech($a1,$a2)."<br>";
+$a1 = ('51');
+$a2 = ('человеку- ');
+$st=$a1%10;
+if (($st==0)||($st==5)||($st==6)||($st==7)||($st==8)||($st==9)){
+    $mod=' лет';
+}
+if ($st==1) {
+    $mod=' год';
+}
+if (($st==2) || ($st==3) || ($st==4)){
+    $mod=' года';
+}
+if ($a1==11){
+    $mod='лет';}
 
-nam1('Maya Mause','имя- ');
-adr_fiz('Moskov, alleya Vitte,6 building 1, 10','адрес проживания- ');
-adr_pasp('Gunara Astras str., bld 9, Riga, Latvia','адрес регистрации- ');
-old('59 лет','старушке- ');
-gender('женский','пол- ');
+echo pech($a1,$a2),$mod."<br>";
 
-function nam1 ($name,$nam1)
-{
-    echo "{$nam1} {$name}<br>";
-}
-function adr_fiz ($adr,$adres)
-{
-    echo "{$adres} {$adr}<br>";
-}
-function adr_pasp ($adrreg,$adresreg)
-{
-    echo "{$adresreg} {$adrreg}<br>";
-}
-function old ($st,$star)
-{
-    echo "{$star} {$st}<br>";
-}
-function gender ($gend1,$gend2)
-{
-    echo "{$gend2} {$gend1}<br>";
-}
-?>
+

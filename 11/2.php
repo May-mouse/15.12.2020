@@ -12,36 +12,11 @@
 </body>
 </html>
 <?php
-// *** первый вариант
-//function getreult ($oper1=2,$oper2=5)
-//{
- //  $sum= $oper1+$oper2;
- //return $sum;
-//}
-//echo getreult()."<br>";//Выведет 7
 
-
-// *** второй вариант
-
-//function getreult ($op1=20,$op2=50)
-//{
-//    $pr= $op1*$op2;
-//    return $pr;
-//}
-//echo getreult()."<br>";//Выведет 1000
-//echo getreult(35,2)."<br>";//Выведет 70
-//
-
-
-// *** третий вариант
-
-
-function getreult ($op1=2,$op2=10,$sum='сумма')
-{
-    $sum = $op1+$op2;
-    return   $sum ;
+function getreult($a1=50, $a2=10,$sum='сумма'){
+    $sum=$a1+$a2;
+    return $sum;
 }
-echo getreult()."<br>";//Выведет1024
-
+$a3=20; $a4=5;
+echo getreult ($a3,$a4);
 ?>
-
