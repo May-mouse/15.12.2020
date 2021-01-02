@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c0efc9a-bc62-4556-a088-587243c712f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11/1-1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11/1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11/2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +28,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../wamp/Ampps/www" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ярлыки\моя\программы\учеба\15.12.20-10\15.12.2020\11" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -45,6 +54,13 @@
       <workItem from="1608381668681" duration="66000" />
       <workItem from="1608476264548" duration="111000" />
       <workItem from="1608476393208" duration="261000" />
+      <workItem from="1608476677695" duration="725000" />
+      <workItem from="1608736360014" duration="1473000" />
+      <workItem from="1608738047465" duration="899000" />
+      <workItem from="1608743291137" duration="655000" />
+      <workItem from="1608966886286" duration="37000" />
+      <workItem from="1609573705796" duration="1157000" />
+      <workItem from="1609579200848" duration="828000" />
     </task>
     <task id="LOCAL-00001" summary="урок 10 файлы 1.2.3.php">
       <created>1608137125604</created>
@@ -53,7 +69,28 @@
       <option name="project" value="LOCAL" />
       <updated>1608137125604</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="урок 11, файлы 1,2,1-1(модернизация файла 1)-функции">
+      <created>1608476800839</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608476800839</updated>
+    </task>
+    <task id="LOCAL-00003" summary="урок 11, добавление файла 11111.php- функция - вывод нга печать - проба">
+      <created>1608743431348</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608743431349</updated>
+    </task>
+    <task id="LOCAL-00004" summary="урок 11,исправление файлов 1, 2 php, остальные файлы- не рабочие, для пробы">
+      <created>1609579468868</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609579468868</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -61,24 +98,27 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="урок 10 файлы 1.2.3.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="урок 10 файлы 1.2.3.php" />
+    <MESSAGE value="урок 11, файлы 1,2,1-1(модернизация файла 1)-функции" />
+    <MESSAGE value="урок 11, добавление файла 11111.php- функция - вывод нга печать - проба" />
+    <MESSAGE value="урок 11,исправление файлов 1, 2 php, остальные файлы- не рабочие, для пробы" />
+    <option name="LAST_COMMIT_MESSAGE" value="урок 11,исправление файлов 1, 2 php, остальные файлы- не рабочие, для пробы" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="577" y="87" key="CommitChangelistDialog2" timestamp="1608137125019">
+    <state x="577" y="87" key="CommitChangelistDialog2" timestamp="1609579468042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="577" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608137125019" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1608381737909">
+    <state x="577" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609579468042" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1609580028642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608381737909" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609580028642" />
     <state x="795" y="442" key="NewPhpFileDialog" timestamp="1608476361287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="795" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608476361287" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1608137128094">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1609579480771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608137128094" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609579480771" />
   </component>
 </project>

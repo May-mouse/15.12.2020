@@ -1,4 +1,4 @@
-OCTYPE html>
+<!DOCTYPE html>
 <html>
 <head><title>урок 11</title>
 </head>
@@ -11,19 +11,25 @@ OCTYPE html>
 </body>
 </html>
 <?php
-function pech($a2,$a1){
+function pechat($a2,$a1){
     $rez= "$a1 $a2";
+    echo $rez . "<br>";
     return $rez;
 }
 $a1=('May Maus');
 $a2= ('имя- ');
-echo pech($a1,$a2)."<br>";
+
+pechat($a1,$a2) ;
 $a1 = ('Moskov, alleya Vitte,6 building 1, 10');
-$a2 = ('адрес проживания- ');
-echo pech($a1,$a2)."<br>";
-$a1 = ('51');
+$a2= ('адрес проживания- ');
+pechat($a1,$a2) ;
+$a1 = ('105');
 $a2 = ('человеку- ');
+pechat($a1,$a2) ;
+// часть кода- преобразование в зависимости от цифры (лет) в пропись ("лет").
+
 $st=$a1%10;
+
 if (($st==0)||($st==5)||($st==6)||($st==7)||($st==8)||($st==9)){
     $mod=' лет';
 }
@@ -36,6 +42,8 @@ if (($st==2) || ($st==3) || ($st==4)){
 if ($a1==11){
     $mod='лет';}
 
-echo pech($a1,$a2),$mod."<br>";
+echo $mod;
+
+
 
 
