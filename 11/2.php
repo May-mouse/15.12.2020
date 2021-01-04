@@ -15,8 +15,7 @@
 
 function getreult($a1=50, $a2=10,$sum='сумма'){
     $sum=$a1+$a2;
-    return $sum;
+    echo $sum;
 }
-$a3=20; $a4=5;
-echo getreult ($a3,$a4);
+ getreult (25,6);
 ?>
