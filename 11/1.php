@@ -16,16 +16,13 @@ function pechat($a2,$a1){
     echo $rez . "<br>";
     return $rez;
 }
-$a1=('May Maus');
-$a2= ('имя- ');
 
-pechat($a1,$a2) ;
-$a1 = ('Moskov, alleya Vitte,6 building 1, 10');
-$a2= ('адрес проживания- ');
-pechat($a1,$a2) ;
-$a1 = ('105');
-$a2 = ('человеку- ');
-pechat($a1,$a2) ;
+pechat( 'имя- ','May Maus') ;
+
+pechat('Moskov, alleya Vitte,6 building 1, 10','адрес проживания- ') ;
+
+pechat('105','человеку- ') ;
+
 // часть кода- преобразование в зависимости от цифры (лет) в пропись ("лет").
 
 $st=$a1%10;
@@ -43,7 +40,4 @@ if ($a1==11){
     $mod='лет';}
 
 echo $mod;
-
-
-
 
