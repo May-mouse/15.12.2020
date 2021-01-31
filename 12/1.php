@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head><title>урок 11</title>
+<head><title>урок 12</title>
 </head>
 <body>
 <h1>Функции. Оформление и возвращаемое значение.</h1>
@@ -12,32 +12,36 @@
     Имя: Василий. Адрес: г. Астрахань. Возраст: 10 лет. // Переданы все параметры
     Имя: Василий. Возраст: 10 лет. // Не передан Адрес
     Имя: Василий. Адрес: г. Астрахань. // Не передан возраст</p>
-</body>
-</html>
+
 <?php
 
 echo "<h3>"."Данные участников проекта:"."</h3><br>";
 
-echo getInfopro (" ","г.Астрахань","10 лет");
+echo getInfopro ("Василий","10 лет", "г. Астрахань");
+
+# в случае, если они не передан Возраст: 10 лет.--- echo getInfopro ("Василий","", "г. Астрахань");
+# в случае, если они не передан Адрес: г. Астрахань.---echo getInfopro ("Василий","10 лет", "");
+
+
 
 /**
- *param $age, $adress, $name-string
- *return $age, $adress, $name-string
-
+ * @param string $age
+ * @param string $adress
+ * @param string $name
+ * return string
  */
 
-function getInfopro ($age, $adress, $name) {
-    if ($adress== " ")   {
-        return '  имя:  ' . "  Василий," .  ' возраст: ' . "10 лет<br>";
-    }
-    elseif ($age ==" ") {
-        return '  имя:  ' . " Василий," . ' адрес:  ' . " г. Астрахань. <br>";
-    }
+function getInfopro ($name, $age, $adress) {
 
-    return 'имя:  ' . " Василий," . ',  адрес:  ' . " г. Астрахань," . ',  возраст: ' . "10 лет<br>";
+    if (($adress!="") && ($age!="")) {
+        return 'имя:  ' . "$name " . ',  возраст: ' . "$age " . ', адрес:  ' . "$adress. <br>";}
+    if ($age == "") {
+        return 'имя:  ' . "$name " . ', адрес:  ' . "$adress. <br>";}
+
+    if ($adress == "") {
+        return 'имя:  ' . "$name " . ',  возраст: ' . "$age. <br> ";}
 }
-
 ?>
 
-
-
+</body>
+</html>
